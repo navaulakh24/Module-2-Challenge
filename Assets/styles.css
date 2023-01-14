@@ -8,6 +8,18 @@ body {
     background-color:bisque;
 }
 
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding:8px;
+    background-color: blueviolet;
+}
+
+
 header h1 {
     padding: 20px;
     font-size: 70px;
