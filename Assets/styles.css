@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Major Mono Display', monospace;
 }
 
 body {
@@ -69,10 +68,6 @@ li a:hover {
     box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
 
-li a:active {
-    color: rgb(231, 123, 145);
-}
-
 section h1 {
     text-align: center;
 }
@@ -82,22 +77,13 @@ section h1 {
     font-size: 20px;
 }
 
-h3 {
+div h3:hover {
     color:rgb(0, 0, 0);
     cursor: pointer;
+    font-size: 20px;
     text-decoration: none;
+    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
-/* .details {
-    width: 75%;
-    display: inline-block;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    padding: 70px;
-    height: 300px;
-    font-family: 'Major Mono Display', monospace;
-    color: rgb(231, 123, 145);
-    background-color: rgb(255, 182, 99);
-}  */
 
 .details h2 {
     margin-bottom: 20px;
@@ -107,11 +93,13 @@ h3 {
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
     color:rgba(0, 0, 0, 0.514);
     text-decoration: none;
     font-weight:bolder;
     text-shadow:rgb(0, 0, 0);
+    font-family: 'Iceland', cursive;
+    padding: 20px;
 }
 
 .info {
@@ -123,11 +111,15 @@ p {
 
 .page-area {
     margin: 30px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+#about-me, #work-area, #contact-me {
+    font-family: 'Major Mono Display', monospace;
 }
 
 .work-container {
@@ -152,8 +144,6 @@ p {
 .work-item {
     background-size: 150%;
     font-size: 16px;
-    border: 5px sold red;
-    background-color: green;
     min-height: 200px;
     max-height: 200px;
     flex-basis: calc(50% - 16px);
@@ -161,16 +151,34 @@ p {
     align-items: flex-end;
     padding: 20px;
     margin: 8px;
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+a {
+    color:rgb(0, 0, 0);
+}
+
+figure {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+img {
+    border-radius: 60px;
 }
 
 .work-item:first-child {
     background-size: 100%;
     min-height: 500px;
     flex-basis: 100%;
-}
+} 
 
 #web-development {
-    background-image: url("https://cdn.pixabay.com/photo/2020/04/12/18/43/abstract-5035370_960_720.jpg")
+    background-image: url("https://images.unsplash.com/photo-1482053450283-3e0b78b09a70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 }
 
 #branding {
@@ -178,22 +186,16 @@ p {
 }
 
 #illustration {
-    background-image: url("https://cdn.pixabay.com/photo/2017/09/06/14/38/background-2721729_960_720.jpg")
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/06/14/38/background-2721729_960_720.jpg");
 }
 
 #UXUI-design {
-    background-image: url("https://cdn.pixabay.com/photo/2014/09/17/11/09/triangles-449373_960_720.jpg")
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/17/11/09/triangles-449373_960_720.jpg");
 }
 
 #portrait {
-    background-image: url("https://cdn.pixabay.com/photo/2022/08/25/04/30/smoke-7409257_960_720.jpg")
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/25/04/30/smoke-7409257_960_720.jpg");
 }
-
-/* div ul li {
-    padding-top: 15px;
-    margin-right: 20px;
-    display: inline-block;
-} */
 
 @media screen and (min-width: 576px) {
     header h1 {
