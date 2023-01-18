@@ -3,7 +3,7 @@
 ## Description
 I have created a webpage portfolio to showcase my skills and talents to future employers looking to fill a part-time or full-time position. As time goes on in this course, I will be adding to this portfolio to highlight my strongest work and to highlight th thought process behind it. Completing this deployed webpage will hopefully be the start to landing my very first interview!
 
-![Webpage](../Module-2-Challenge/Assets/Screenshot%20(2).png)
+![Webpage](./Assets/Screenshot%20(2).png)
 
 ## Deployment Link
 [Web Accessibility]()
