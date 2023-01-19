@@ -6,7 +6,7 @@ I have created a webpage portfolio to showcase my skills and talents to future e
 ![Webpage](./Assets/Screenshot%20(2).png)
 
 ## Deployment Link
-[Web Accessibility](https://navaulakh24.github.io/Module-2-Challenge/)
+[Web Accessibility](https://navaulakh24.github.io/My-Profile/)
 
 ## User Story
 - AS AN employer
